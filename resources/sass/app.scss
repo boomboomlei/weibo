@@ -13,43 +13,27 @@ nav.navbar.navbar-expand-lg{
 }
 
 
-$navbar-color:#3c3e42;
-.navbar-inverse{
-	background-color:$navbar-color;
-}
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  font-size: 13px;
+  font-weight: bold;
 
-body div{
-	
-	color:red;
-}
-body h1{
-	margin-top:10px;
+  a {
+    color: #555;
+  }
 
-}
+  a:hover {
+    color: #222;
+  }
 
-body{
-	div{
-		color:red;
-	}
-	h1{
-
-		margin-top:10px;
-	}
-}
-
-a{
-	
-	color:white;
-}
-
-a:hover{
-	color:blue;
-}
-
-a{
-	
-	color:white;
-	&:hover{
-		color:blue;
-	}
+  small {
+    float: left;
+  }
+  img.brand-icon {
+    width: 17px;
+    height: 17px;
+  }
 }
