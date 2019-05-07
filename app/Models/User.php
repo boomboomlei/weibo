@@ -83,7 +83,7 @@ class User extends Authenticatable
     }
     //取消关注
     public  function unfollow($user_ids){
-        if(!is_aray($user_ids)){
+        if(!is_array($user_ids)){
             $user_ids=compact('user_ids');
         }
         $this->followings()->detach($user_ids);
