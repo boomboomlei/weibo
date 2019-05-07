@@ -7,7 +7,7 @@
 			<button type="submit" class="btn btn-sm btn-outline-primary">取消关注</button>
 		</form>
 	@else
-		<form action="post" action="{{ route('followers.store',$user->id) }}">
+		<form method="post" action="{{ route('followers.store',$user->id) }}">
 			{{ csrf_field() }}
 			<button type="submit" class="btn btn-sm btn-primary">关注</button>
 		</form>
